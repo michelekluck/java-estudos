@@ -1,3 +1,5 @@
+package unidade1.exemplos;
+
 import java.util.Objects;
 import java.util.Scanner;
 
