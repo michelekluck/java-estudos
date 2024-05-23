@@ -1,8 +1,7 @@
-package exercicios;
+package unidade1.exemplos.exercicios;
 /*Crie um algoritmo em Java que solicita três números decimais ao usuário. Em seguida, a média destes números é calculada e mostrada na tela para o usuário.*/
 
 import java.util.Scanner;
-import java.util.Locale;
 
 public class ex1 {
     public static void main(String[] args) {

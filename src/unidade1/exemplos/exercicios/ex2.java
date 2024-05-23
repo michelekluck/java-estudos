@@ -1,4 +1,4 @@
-package exercicios;
+package unidade1.exemplos.exercicios;
 /* Crie um algoritmo em Java que verifica se um número inteiro é positivo, negativo ou zero.*/
 
 import java.util.Scanner;

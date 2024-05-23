@@ -1,4 +1,4 @@
-package exercicios;
+package unidade1.exemplos.exercicios;
 /* Crie um algoritmo em Java que peça ao usuário para que se digite um ano (exemplo: 2032). Em seguida, o algoritmo deve verificar se o ano informado é ou não bissexto*/
 
 import java.util.Scanner;
