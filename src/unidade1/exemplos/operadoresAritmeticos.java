@@ -1,4 +1,4 @@
-package exemplos;
+package unidade1.exemplos;
 /*crie um algoritmo em Java que contenha três variáveis inteiras,
 duas booleanas e uma do tipo float. Utilize comentários e operadores
 aritméticos, lógicos e relacionais no código.*/

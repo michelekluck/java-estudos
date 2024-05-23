@@ -1,4 +1,4 @@
-package exemplos;
+package unidade1.exemplos;
 // mostrar uma sequencia de numero de 0 a 9
 
 public class comandoFor {

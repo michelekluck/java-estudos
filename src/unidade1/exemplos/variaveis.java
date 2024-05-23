@@ -1,4 +1,4 @@
-package exemplos;
+package unidade1.exemplos;
 /*
  crie um algoritmo em Java contendo uma variável do tipo int, outra
  do tipo float e outra do tipo String. A variável do tipo float precisa

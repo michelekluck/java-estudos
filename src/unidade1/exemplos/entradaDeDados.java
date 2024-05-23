@@ -1,4 +1,4 @@
-package exemplos;
+package unidade1.exemplos;
 /*
 crie um código em Java o qual peça para que o usuário digite
 um nome (tipo String), uma idade (tipo int) e uma altura (tipo float).

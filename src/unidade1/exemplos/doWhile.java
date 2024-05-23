@@ -1,4 +1,4 @@
-package exemplos;
+package unidade1.exemplos;
 
 public class doWhile {
     public static void main(String[] args) {

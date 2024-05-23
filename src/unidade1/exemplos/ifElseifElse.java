@@ -1,4 +1,4 @@
-package exemplos;
+package unidade1.exemplos;
 
 import java.util.Scanner;
 
