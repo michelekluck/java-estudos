@@ -36,3 +36,4 @@ public class Rectangle {
         System.out.println(ret2.calculatePerimeter());
     }
 }
+
