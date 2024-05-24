@@ -1,18 +1,18 @@
 package unidade2;
 
-public class rectangle {
+public class Rectangle {
     // atributos
     float height; // altura
     float length; // comprimento
 
     // metodos
-    rectangle(float initialHeight){
+    Rectangle(float initialHeight){
         this.height = initialHeight;
         this.length = 10.0f;
 
     }
 
-    rectangle(float initialHeight, float initialLength){
+    Rectangle(float initialHeight, float initialLength){
         this.height = initialHeight;
         this.length = initialLength;
     }
@@ -29,10 +29,10 @@ public class rectangle {
     public static void main(String[] args) {
         System.out.println("Bem-vindo ao mundo dos retângulos");
 
-        rectangle ret1 = new rectangle(5.2f, 12.5f); // locação de memória
+        Rectangle ret1 = new Rectangle(5.2f, 12.5f); // locação de memória
         System.out.println(ret1.calculatePerimeter());
 
-        rectangle ret2 = new rectangle(10.3f);
+        Rectangle ret2 = new Rectangle(10.3f);
         System.out.println(ret2.calculatePerimeter());
     }
 }
