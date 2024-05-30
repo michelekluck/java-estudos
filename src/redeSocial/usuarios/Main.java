@@ -1,7 +1,4 @@
-package unidade3.exemplos;
-
-import unidade3.exemplos.usuarios.Usuario;
-import unidade3.exemplos.postagens.Postagem;
+package redeSocial.usuarios;
 
 public class Main {
     public static void main(String args[]) {

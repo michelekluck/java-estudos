@@ -1,6 +1,6 @@
-package unidade3.exemplos.usuarios;
+package redeSocial.usuarios;
 
-import unidade3.exemplos.postagens.Postagem;
+import redeSocial.usuarios.postagens.Postagem;
 
 import java.util.ArrayList;
 import java.util.List;

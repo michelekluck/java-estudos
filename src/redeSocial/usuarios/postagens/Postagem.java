@@ -1,4 +1,4 @@
-package unidade3.exemplos.postagens;
+package redeSocial.usuarios.postagens;
 
 public class Postagem {
     // atributos
