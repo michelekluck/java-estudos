@@ -1,4 +1,4 @@
-package exemplos;
+package unidade3.exemplos;
 
 // usado para os casos em que precisamos interromper um comando de repetição
 // continue: interrompe a repetição e executa a condição novamente

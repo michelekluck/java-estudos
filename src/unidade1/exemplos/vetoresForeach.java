@@ -1,4 +1,4 @@
-package exemplos;
+package unidade3.exemplos;
 
 public class vetoresForeach {
 }

@@ -1,4 +1,4 @@
-package exemplos;
+package unidade3.exemplos;
 
 public class caracteresEspeciais { // em Java é comum que o nome do arquivo e o nome da classe principal sejam os mesmos
     public static void main(String[] args) { // ponto de entrada do programa Java, onde a execução começa

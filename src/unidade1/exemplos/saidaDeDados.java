@@ -1,4 +1,4 @@
-package exemplos;
+package unidade3.exemplos;
 /* crie um código em Java o qual mostre na tela o nome,
 idade e altura de uma pessoa. Estas três informações deverão ficar
 armazenadas em três variáveis.*/

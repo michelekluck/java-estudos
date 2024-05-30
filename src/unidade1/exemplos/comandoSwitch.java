@@ -1,4 +1,4 @@
-package exemplos;
+package unidade3.exemplos;
 
 // Em casos que se precisa testar diferentes valores de uma unica variavel
 // Ou evitar a repetição de condições em cada teste do if/else

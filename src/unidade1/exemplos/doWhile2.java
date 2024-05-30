@@ -1,4 +1,4 @@
-package exemplos;
+package unidade3.exemplos;
 
 // O Java garante que o bloco de codigo seja executado pelo menos uma vez, mesmo se a condição for falsa desde o inicio
 public class doWhile2 {
