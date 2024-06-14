@@ -1,22 +1,12 @@
 package unidade5.exemplos;
 
-public class Carro {
-    private String marca;
-    private String motor;
+public class Carro extends Veiculo2{ // extends = indica que a classe carro "estende" (é uma subclasse de) veiculo2
     private int portaMalas;
 
     public Carro(String marca, String motor, int portaMalas){
-        this.marca = marca;
-        this.motor = motor;
+        super(marca, motor); // chama o construtor da superclasse
+        // util quando a superclasse tem um construtor com parametros que precisam ser inicializados
         this.portaMalas = portaMalas;
-    }
-
-    public String getMarca(){
-        return marca;
-    }
-
-    public String getMotor(){
-        return motor;
     }
 
     public int getPortaMalas(){
@@ -24,7 +14,7 @@ public class Carro {
     }
 
     public String imprimir() {
-        return "Marca: " + getMarca() + ", Motor: " + getMotor() + " Porta-malas: " + getPortaMalas() + " litros.";
+        return "Marca: " + this.marca + ", Motor: " + this.motor + " Porta-malas: " + getPortaMalas() + " litros.";
     }
 }
 

@@ -1,22 +1,11 @@
 package unidade5.exemplos;
 
-public class Moto2 {
-    private String marca;
-    private String motor;
+public class Moto2 extends Veiculo2 {
     private int cilindradas;
 
     public Moto2(String marca, String motor, int cilindradas){
-        this.marca = marca;
-        this.motor = motor;
+        super(marca, motor);
         this.cilindradas = cilindradas;
-    }
-
-    public String getMarca(){
-        return marca;
-    }
-
-    public String getMotor(){
-        return motor;
     }
 
     public int getCilindradas(){
@@ -24,6 +13,6 @@ public class Moto2 {
     }
 
     public String imprimir(){
-        return "Marca: " + getMarca() + ", Motor: " + getMotor() + " de " + getCilindradas() + " cilindradas.";
+        return "Marca: " + marca + ", Motor: " + motor + " de " + getCilindradas() + " cilindradas.";
     }
 }
