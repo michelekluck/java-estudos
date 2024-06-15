@@ -13,6 +13,6 @@ public class Moto2 extends Veiculo2 {
     }
 
     public String imprimir(){
-        return "Marca: " + marca + ", Motor: " + motor + " de " + getCilindradas() + " cilindradas.";
+        return "Marca: " + marca + ", Motor: " + motor + " de " + cilindradas + " cilindradas.";
     }
 }

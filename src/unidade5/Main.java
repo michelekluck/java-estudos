@@ -5,7 +5,13 @@ public class Main {
         Veiculo carroDoVizinho = new Veiculo("Peugeot", "1.6 THP");
         Veiculo nossoCaminhao = new Caminhao("Volvo", "Motor aleatorio", 4, 20);
 
-        System.out.println("O carro do vizinho é um " + carroDoVizinho.getMarca());
-        System.out.println("O nosso caminhão é um " + nossoCaminhao.getMarca());
+        //System.out.println("O carro do vizinho é um " + carroDoVizinho.getMarca());
+        //System.out.println("O nosso caminhão é um " + nossoCaminhao.getMarca());
+
+        carroDoVizinho.getDetalhes();
+        nossoCaminhao.getDetalhes();
+
+        carroDoVizinho.getSom();
+        nossoCaminhao.getSom();
     }
 }

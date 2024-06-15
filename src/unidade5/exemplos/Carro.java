@@ -14,7 +14,7 @@ public class Carro extends Veiculo2{ // extends = indica que a classe carro "est
     }
 
     public String imprimir() {
-        return "Marca: " + this.marca + ", Motor: " + this.motor + " Porta-malas: " + getPortaMalas() + " litros.";
+        return "Marca: " + this.marca + ", Motor: " + this.motor + " Porta-malas: " + this.portaMalas + " litros.";
     }
 }
 
