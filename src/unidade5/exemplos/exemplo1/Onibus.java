@@ -1,6 +1,6 @@
-package unidade5.exemplos;
+package unidade5.exemplos.exemplo1;
 
-public class Onibus extends Veiculo2{
+public class Onibus extends Veiculo2 {
     private int passageiros;
     private boolean articulado;
 

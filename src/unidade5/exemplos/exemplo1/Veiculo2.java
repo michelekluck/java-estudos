@@ -1,4 +1,4 @@
-package unidade5.exemplos;
+package unidade5.exemplos.exemplo1;
 
 public class Veiculo2 {
     protected String marca;
@@ -15,5 +15,9 @@ public class Veiculo2 {
 
     public String getMotor() {
         return motor;
+    }
+
+    public String imprimir(){
+        return "Marca: " + getMarca() + ", Motor: " + getMotor();
     }
 }

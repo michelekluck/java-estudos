@@ -1,4 +1,4 @@
-package unidade5.exemplos;
+package unidade5.exemplos.exemplo1;
 
 public class Moto2 extends Veiculo2 {
     private int cilindradas;
@@ -13,6 +13,6 @@ public class Moto2 extends Veiculo2 {
     }
 
     public String imprimir(){
-        return "Marca: " + marca + ", Motor: " + motor + " de " + cilindradas + " cilindradas.";
+        return super.imprimir() + " de " + getCilindradas()+ " cilindradas.";
     }
 }

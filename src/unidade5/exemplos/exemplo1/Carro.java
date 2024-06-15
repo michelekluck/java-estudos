@@ -1,6 +1,6 @@
-package unidade5.exemplos;
+package unidade5.exemplos.exemplo1;
 
-public class Carro extends Veiculo2{ // extends = indica que a classe carro "estende" (é uma subclasse de) veiculo2
+public class Carro extends Veiculo2 { // extends = indica que a classe carro "estende" (é uma subclasse de) veiculo2
     private int portaMalas;
 
     public Carro(String marca, String motor, int portaMalas){
