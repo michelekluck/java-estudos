@@ -1,9 +1,7 @@
-package unidade5.exercicio;
+package unidade5.exercicio.loja;
 /*Crie uma classe genérica chamada produto que contenha informações que todos
 os produtos têm em comum (como idProduto, nome, preco). Agora, crie classes especializadas
 como livro, eletronico e roupa, cada uma com atributos adicionais relevantes para esse tipo de produto.*/
-
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 
 class Produto {
     // atributos
