@@ -1,4 +1,8 @@
 package unidade5.exercicio.banco;
+/*Crie uma classe ContaBancaria com atributos privados como saldo e
+numeroDaConta. Crie uma classe ContaCorrente que herda de ContaBancaria e
+adiciona um atributo limiteDeCredito. Certifique-se de usar protected ou private
+ corretamente para encapsular os atributos.*/
 
 // superclasse ContaBancaria
  class ContaBancaria {
