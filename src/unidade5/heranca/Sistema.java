@@ -15,5 +15,23 @@ public class Sistema {
         System.out.println("Nome: " + maria.getNome());
         System.out.println("Idade: " + maria.getIdade());
         System.out.println("Profissão: " + maria.getProfissao());
+
+        System.out.println("-----------------------------------");
+
+        Aluno joao = new Aluno();
+        joao.setNome("João da Silva");
+        System.out.println("Dados de aluno: ");
+        System.out.println("Nome: " + joao.getNome());
+        System.out.println("Idade: " + joao.getIdade());
+        System.out.println("Profissão: " + joao.getProfissao());
+
+        System.out.println("-----------------------------------");
+
+
+        Professor mauricio = new Professor();
+        System.out.println("Dados de professor: ");
+        System.out.println("Nome: " + mauricio.getNome());
+        System.out.println("Idade: " + mauricio.getIdade());
+        System.out.println("Profissão: " + mauricio.getProfissao());
     }
 }

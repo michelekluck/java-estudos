@@ -6,7 +6,7 @@ public class Pessoa {
     // ou seja: se eu deixar o nome vazio, ao executar o codigo o nome virá como "nenhum"
     private String nome = "nenhum";
     private int idade = 0;
-    private String profissao = "não trabalha";
+    private String profissao = "não sei ainda";
 
     // getters
     public String getNome(){
