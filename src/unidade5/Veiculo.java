@@ -2,7 +2,7 @@ package unidade5;
 
 import javax.sound.midi.SysexMessage;
 
-public class Veiculo {
+public abstract class Veiculo {
     // atributos
     protected String marca;
     protected String motor;
@@ -23,9 +23,7 @@ public class Veiculo {
     }
 
     // override
-    public void getDetalhes(){
-        System.out.println("A marca do veiculo é " + getMarca() + ", e o motor é " + getMotor());
-    }
+    public abstract void getDetalhes();
 
     public void getSom(){
         System.out.println("Os veiculos podem ser bem barulhentos ou bem silenciosos. Depende do que você quer.");

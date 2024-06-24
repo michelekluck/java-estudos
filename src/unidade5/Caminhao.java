@@ -27,10 +27,8 @@ public class Caminhao extends Veiculo{
 
     // override: sobrescrita de métodos
     public void getDetalhes(){
-        super.getDetalhes();
         System.out.println("O nosso caminhão tem uma capacidade de " + getCapacidadeEmToneladas() + " toneladas");
     }
-
     // overload: sobrecarga de métodos
     public void getDetalhes(boolean mostrarEixos){
         if (mostrarEixos) {
@@ -44,7 +42,6 @@ public class Caminhao extends Veiculo{
         for( int i = 0; 1 < quantidadeLinhasEmBranco; i++ ){
             System.out.println();
         }
-        super.getDetalhes();
     }
 
     public void getSom(){
