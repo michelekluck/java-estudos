@@ -4,7 +4,7 @@ package unidade5;
 // veiculo é uma superclasse partir de caminhão e de moto
 // moto é uma especialização de veiculo
 // implements -> classe deve obrigatoriamente implementar as funções do usuario
-public class Moto extends Veiculo implements FuncoesUsuario{
+public class Moto extends Veiculo implements FuncoesUsuario, RegistroSistema{
     // atributos
     private  int cilindradas;
 
@@ -23,7 +23,7 @@ public class Moto extends Veiculo implements FuncoesUsuario{
         System.out.println("A moto tem " + this.cilindradas + " cilindradas");
     }
 
-    // implementações do arquivo FuncoesUsuario
+    // implementações da interface FuncoesUsuario
     public void mostrarResumoVeiculo(){
         System.out.println("Esta é uma mensagem aleatoria de resumo do veiculo.");
     }
@@ -35,4 +35,14 @@ public class Moto extends Veiculo implements FuncoesUsuario{
     public String retornarMensagemResumoVeiculo(){
         return "Mensagem aleatoria de resumo.";
     }
+
+    // implementações da interface RegistroSistema
+    public void mostrarMensagemConfirmacaoCadastroVeiculoNoSistema(){
+        System.out.println("Mensagem aleatoria");
+    }
+
+    public void mostrarLogCadastroVeiculoNoSistema(){
+        System.out.println("Mensagem aleatoria");
+    }
 }
+
