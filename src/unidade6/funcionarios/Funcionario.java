@@ -1,4 +1,4 @@
-package unidade6.exemplo3;
+package unidade6.funcionarios;
 
 // classe abstrata
 // não podemos instanciar um obeto da classe funcionario diretamente

@@ -1,6 +1,6 @@
-package unidade6.exercicio1;
+package unidade6.netflix;
 
-public class Serie extends ConteudoNetflix{
+public class Serie extends ConteudoNetflix {
     public Serie(String titulo, double duracao){
         super(titulo, duracao);
     }

@@ -1,4 +1,4 @@
-package unidade6.exemplo3;
+package unidade6.funcionarios;
 
 // estente a classe abstrata funcionario
 // temporario é um tipo especifico de funcionario

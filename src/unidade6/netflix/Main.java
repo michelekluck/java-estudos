@@ -1,4 +1,4 @@
-package unidade6.exercicio1;
+package unidade6.netflix;
 
 public class Main {
     public static void main(String[] args){

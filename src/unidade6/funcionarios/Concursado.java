@@ -1,4 +1,4 @@
-package unidade6.exemplo3;
+package unidade6.funcionarios;
 
 // estende a classe abstrata funcionario
 public class Concursado extends Funcionario {

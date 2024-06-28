@@ -1,4 +1,4 @@
-package unidade6.exercicio1;
+package unidade6.netflix;
 
 public abstract class ConteudoNetflix {
     protected String titulo;

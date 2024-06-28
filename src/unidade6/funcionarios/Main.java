@@ -1,4 +1,4 @@
-package unidade6.exemplo3;
+package unidade6.funcionarios;
 import java.util.*;
 
 public class Main {
