@@ -1,4 +1,5 @@
-package unidade6;
+package unidade6.semAbstract;
+
 import java.util.*;
 
 public class Main {

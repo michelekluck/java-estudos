@@ -1,6 +1,6 @@
-package unidade6;
+package unidade6.semAbstract;
 
-public class Circulo extends Forma{
+public class Circulo extends Forma {
     private static final double PI = 3.1414;
     private double raio;
 

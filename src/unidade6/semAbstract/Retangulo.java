@@ -1,4 +1,4 @@
-package unidade6;
+package unidade6.semAbstract;
 
 public class Retangulo extends Forma {
     private double lado1;
