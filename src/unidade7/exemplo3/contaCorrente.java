@@ -11,7 +11,7 @@ public class contaCorrente {
         this.saldo = saldoInicial;
     }
 
-    public void sacar(double valor) {
+    public void sacar(double valor) throws saldoInsuficienteException {
         try {
             if (this.saldo - valor < 0) {
                 throw new saldoInsuficienteException(String.format("Você esta tentando sacar R$ %.2f , mas você tem R$ %.2f na conta.", valor, this.saldo)); // "jogando" uma nova exceção
